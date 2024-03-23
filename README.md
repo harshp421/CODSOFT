@@ -41,13 +41,13 @@ This project aims to create a simple and user-friendly blogging platform with fe
 
 Here are some images for Blog WebApp ;
 
-![Image 1](demoimage/s1.png)
-![Image 2](demoImage/Screenshot%20(4).png)
-![Image 3](demoImage/Screenshot%20(6).png)
-![Image 3](demoImage/Screenshot%20(7).png)
-![Image 3](demoImage/Screenshot%20(8).png)
-![Image 3](demoImage/Screenshot%20(9).png)
-![Image 3](demoImage/Screenshot%20(10).png)
+![Image 1](demoimage/blog/s1.png)
+![Image 2](demoImage/blog/Screenshot%20(4).png)
+![Image 3](demoImage/blog/Screenshot%20(6).png)
+![Image 3](demoImage/blog/Screenshot%20(7).png)
+![Image 3](demoImage/blog/Screenshot%20(8).png)
+![Image 3](demoImage/blog/Screenshot%20(9).png)
+![Image 3](demoImage/blog/Screenshot%20(10).png)
 
 ## Online Learning Platform (LMS)
 
@@ -116,7 +116,6 @@ Here are some images for Blog WebApp ;
 ![Image 3](demoImage/lms/Screenshot%20(17).png)
 
 Feel free to reach out if you have any questions or need further assistance!
-
 
 
 
