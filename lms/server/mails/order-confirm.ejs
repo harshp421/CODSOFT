@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333;
+        }
+        h1 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Order Confirmation</h1>
+    <p>Thank you for your order!</p>
+    <p>Order details:</p>
+    <ul>
+        <li><strong>Order ID:</strong> <%= order._id %></li>
+        <li><strong>Course Name:</strong> <%= order.name %></li>
+        <li><strong>Price:</strong> <%= order.price %></li>
+        <li><strong>Date:</strong> <%= order.date %></li>
+    </ul>
+</body>
+</html>
