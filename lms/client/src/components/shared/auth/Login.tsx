@@ -87,7 +87,7 @@ const Login: FC<Props> = ({setRoute,setOpen}) => {
             <DialogHeader>
                 <DialogTitle className='text-center'>Login with Online Learning</DialogTitle>
                 <DialogDescription>
-                    Make changes to your profile here. Click save when you're done.
+                    Make changes to your profile here. Click save when you are done.
                 </DialogDescription>
             </DialogHeader>
             <div className="grid gap-2 py-2">
