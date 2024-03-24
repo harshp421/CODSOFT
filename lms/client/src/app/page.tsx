@@ -14,7 +14,7 @@ import React ,{FC,useState}from 'react'
 interface props{
 
 }
-const page:FC<props>= (props) => {
+const Page:FC<props>= (props) => {
  const [open,setOpen]= useState(false);
  const [activeItem,setActiveItem]=useState(0);
  const [route,setRoute]=useState('Login');
@@ -33,4 +33,4 @@ const page:FC<props>= (props) => {
   )
 }
 
-export default page
+export default Page

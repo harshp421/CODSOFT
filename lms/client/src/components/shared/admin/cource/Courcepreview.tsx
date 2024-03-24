@@ -83,7 +83,7 @@ const Courcepreview:FC<ICourceContentProps > = ({
        <h1 className='mt-2'>What Yous Will Learn From This</h1>
       {
         courcedata?.benefits?.map((item:any,index:number)=>(
-           <div className="w-full flex 800px:items-center py-2">
+           <div className="w-full flex 800px:items-center py-2" key={index}>
                
                 <CheckCheckIcon/>
                 <p>{item?.title}</p>
@@ -97,7 +97,7 @@ const Courcepreview:FC<ICourceContentProps > = ({
       <h1 className='mt-2'>What Yous Will Learn From This</h1>
       {
         courcedata?.prerequisite?.map((item:any,index:number)=>(
-           <div className="w-full flex 800px:items-center py-2">
+           <div className="w-full flex 800px:items-center py-2" key={index}>
              
                 <CheckCheckIcon/>
                

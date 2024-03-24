@@ -4,7 +4,7 @@ import AdminSidebar from '@/components/shared/admin/sideBar/AdminSidebar'
 import Heading from '@/utils/Heading'
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
    const [openSidebar,setOpenSidebar]=useState(false);
  
   return (
@@ -19,4 +19,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -53,7 +53,7 @@ const CourceContentMedia = ({data,id,activeVideo,setActiveVideo}: Props) => {
                 <div>
                     <h1 className=''>Links</h1>
                     {data[activeVideo]?.links.map((item:any,index:number)=>(
-                    <div className='mb-5'>
+                    <div className='mb-5' key={index}>
                 <h2 className='md:inline-block'>
                   {
                     item.title?item.title +":":"Link"

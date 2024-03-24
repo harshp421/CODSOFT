@@ -135,7 +135,7 @@ const CourceContent: FC<ICourceContentProps> = ({
                         courceContentData.map((item: any, index: number) => {
                             const showSectionInput = index === 0 || item.videoSection !== courceContentData[index - 1].videoSection;
                             return (
-                                <div className={`w-full bg-slate-700 p-4 ${showSectionInput ? "mt-10" : "mb-0"}`}>
+                                <div className={`w-full bg-slate-700 p-4 ${showSectionInput ? "mt-10" : "mb-0"}`} key={index}>
                                     {
                                         showSectionInput && (
                                             <>
@@ -239,7 +239,7 @@ const CourceContent: FC<ICourceContentProps> = ({
 
                                                     {
                                                         item.links.map((link: any, linkIndex: number) => (
-                                                            <div className='mb-3 '>
+                                                            <div className='mb-3 ' key={linkIndex}>
                                                                 <div className='w-full flex items-center justify-between'>
                                                                     <Label >
                                                                         link {linkIndex + 1}

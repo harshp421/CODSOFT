@@ -10,7 +10,7 @@ const Aboutus = () => {
                 <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Hey 👋 I am
                     <br className="block sm:hidden" />Harsh Parmar
                 </h2>
-                <p className="max-w-lg mt-3 text-xl leading-relaxedmd:mt-8">
+                <p className="max-w-lg mt-3 text-lg leading-relaxedmd:mt-8">
                 Hello Folks!, Talking about me, i have good skills in some core programming languages such as core JAVA, C, quary language such as SQL, MongoDB, and Web Languages such as HTML, JAVASCRIPT, REACT.JS, EXPRESS.JS, NODE.JS, TYPESCRIPT, web styling language such as CSS, TAILWIND CSS, BOOTSTRAP, ANT DESIGN, MATERIAL-UI ,SHAD-CN. Trying to gather and digest more and more knowledge about web development. 
 Open to do any collaboration and educational project on web development.
                 </p>

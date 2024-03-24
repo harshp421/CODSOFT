@@ -2,7 +2,7 @@
 import CourseDetailsPage from '@/components/shared/cources/CourseDetailsPage'
 import React from 'react'
 
-const page = ({params}:any) => {
+const Page = ({params}:any) => {
   return (
     <div>
         <CourseDetailsPage id={params.id}/>
@@ -10,4 +10,4 @@ const page = ({params}:any) => {
   )
 }
 
-export default page
+export default Page
