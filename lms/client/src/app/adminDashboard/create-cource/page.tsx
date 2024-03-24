@@ -13,7 +13,7 @@ const Page = (props: Props) => {
     <>
      <Heading title={"Create Cource"} description="Online-Learning id a platform for student to learn and get help from teacher" keywords="=Programing,MERN,React" />
      <AdminHeader openSidebar={openSidebar} setOpenSidebar={setOpenSidebar}/>
-    <AdminSidebar openSidebar={openSidebar} setOpenSidebar={setOpenSidebar}/>
+     <AdminSidebar openSidebar={openSidebar} setOpenSidebar={setOpenSidebar}/>
       <CreateCource/>
     </>
   )
