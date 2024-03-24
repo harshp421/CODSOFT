@@ -35,11 +35,11 @@ export const navlinksData: INavlinksData[] = [
     },
     {
         name: "Courses",
-        link: "/courses"
+        link: "/all-Courses"
     },
     {
         name: "About",
-        link: "/about"
+        link: "/about-us"
     },
     {
         name: "Contact",
@@ -89,7 +89,7 @@ const Header: FC<Props> = ({ open, setOpen, activeItem, route, setRoute }) => {
                         <Sidebar />
                     </Button>
 
-                    <Navlinks navlinksData={navlinksData} />
+                    <Navlinks navlinksData={navlinksData} activeItem={activeItem}/>
                     <ModeToggle />
 
                     {
