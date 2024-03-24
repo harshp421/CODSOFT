@@ -6,7 +6,7 @@ import Heading from '@/utils/Heading'
 import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 
-const page = () => {
+const Page = () => {
     const [open, setOpen] = useState(false);
     const [activeItem, setActiveItem] = useState(0);
     const [route, setRoute] = useState('Login');
@@ -24,4 +24,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
